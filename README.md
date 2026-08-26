@@ -22,3 +22,5 @@ The repository contains three classes of solutes: `Alkane`, `Diol`, and `Acid`. 
 * `mdp/`
   Contains the GROMACS parameter files (`.mdp`) required for equilibration and production simulations for the three types of molecular simulations described in the manuscript.
 
+* `output.py`
+  Collects the calculation results. Run with `python output.py`.
