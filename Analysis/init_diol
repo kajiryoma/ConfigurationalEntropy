@@ -1,0 +1,44 @@
+#!/bin/bash
+
+for rs in "04" "05" "06" "07" "08" "09" "10" "11" "12" "13" "14" "15"; do
+cd ${rs}diol
+for d in "03_lowerA" "04_lowerB" "05_upperA" "06_upperB"; do
+cd $d
+
+for i in {1..50};
+do
+  num=`printf "%03d" $i`
+  cd $num || continue
+  gmx bar -f lambda_*/bar.xvg -b 100 > energy.log
+  cd ../
+done
+
+out="solbar.dat"
+sum=0
+n=0
+rm $out
+for i in {1..500}; do
+  num=`printf "%03d" $i`
+  cd "$num" || continue
+  dg=$(awk '/DG/{line=$0} END{print line}' energy.log | awk '{print $6}')
+  if [ -z "$dg" ]; then
+    echo "Missing $6 or Delta G in $d/$num/energy.log; skipping." >&2
+    cd ..
+    continue # skip 
+  fi
+  dg=${dg:-0}
+  echo "$i $dg" >> ../"$out"
+  sum=$(echo "$sum + $dg" | bc -l)
+  n=$((n+1))
+  cd ..
+done
+
+avg=$(echo "scale=4; $sum / $n" | bc -l)
+echo "# Avg DG: $avg" >> "$out"
+echo "Average DG = $avg"
+cd ../
+done
+bar_stat -fl 04_lowerB/solbar.dat -fu 06_upperB/solbar.dat -o b.dat
+bar_stat -fl 03_lowerA/solbar.dat -fu 05_upperA/solbar.dat -o a.dat
+cd ../
+done
