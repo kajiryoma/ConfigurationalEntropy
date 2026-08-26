@@ -1,20 +1,51 @@
 {
-    "title": "Electronic notebook: calculation of changes in configurational entropy in small molecules",
-    "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results in the work titled above.",
-    "creators": [
-        {
-            "name": "Kaji, Ryoma",
-            "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan",
-            "orcid": "0009-0000-1233-1948"
-        }
-    ],
-    "keywords": [
-        "reproducible science",
-        "electronic notebooks",
-        "configurational entropy",
-        "molecular dynamics",
-        "solvation free energy",
-        "free energy calculations"
-    ],
-    "license": "CC-BY-4.0"
+  "title": "Electronic notebook: calculation of changes in configurational entropy in small molecules",
+  "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results in the work titled above",
+  "creators": [
+    {
+      "name": "Ryoma Kaji",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan",
+      "orcid": "0009-0000-1233-1948"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stefan Hervø-Hansen",
+      "orcid": "0000-0002-9629-9195",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
+    },
+    {
+      "name": "Kento Kasahara",
+      "orcid": "0000-0001-7138-250X",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
+    },
+    {
+      "name": "Nobuyuki Matubayasi",
+      "orcid": "0000-0001-7176-441X",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
+    }
+  ],
+  "keywords": [
+    "reproducible science",
+    "electronic notebooks",
+    "configurational entropy",
+    "molecular dynamics",
+    "solvation free energy",
+    "free energy calculations"
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/kajiryoma/ConfigurationalEntropy",
+      "relation": "isSupplementTo"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "access_right": "open",
+  "upload_type": "software"
 }
