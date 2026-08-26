@@ -1,0 +1,14 @@
+# ========================================================
+#   date:  Tue Mar 31 11:16:41 2026
+#   executable:  /Users/kaji/miniconda3/bin/python3
+#   working dir:  /Users/kaji/M2/01_solbar/08_acid/04acid/09_syn
+#   command line:  /Users/kaji/command/mypython/xvgdelg -f marge.dat -l 40 -abs true
+# ========================================================
+# deltaG bsMean: -5.263846252548352
+# deltaG bsError: 0.16434034102198966
+# intE_l bsMean: -18.628189893041135
+# intE_l bsError: 0.006527042567843432
+# intE_u bsMean: -12.851033665060134
+# intE_u bsError: 0.4133384120276978
+# delE bsMean: -5.777156227981001
+# delE bsError: 0.41325932601543736

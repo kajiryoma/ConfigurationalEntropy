@@ -17,7 +17,7 @@ set linestyle 10 lc rgb "midnight-blue" lw 5 dt 3
 set linestyle 10 lw 1 pt 4 ps 0.9 lc rgb "midnight-blue"
 
 set terminal tikz createstyle color size 180mm,210mm
-set output "tikz_plt.tex"
+set output "figureS4_plt.tex"
 
 set border lw 2
 set key nobox
@@ -47,8 +47,8 @@ set xrange[0.2:0.7]
 #set yrange[0:50]
 set ytics 10
 set title "1,5-pentanediol" font ",15" offset 0,-0.5
-plot "05diol/01_solu/300.00/histo.dat" u 1:($2/2000) w l lw 3 lc rgb "red" notitle,\
-     "05diol/02_soln/histo.dat" u 1:($2/2000) w l lw 3 lc rgb "blue" notitle
+plot "05diol/01_solu/300.00/hist.dat" u 1:($2/2000) w l lw 3 lc rgb "red" notitle,\
+     "05diol/02_soln/hist.dat" u 1:($2/2000) w l lw 3 lc rgb "blue" notitle
 
 unset arrow
 unset xlabel
@@ -56,8 +56,8 @@ unset ylabel
 set arrow from 0.61,0 to 0.61,40 nohead lw 3 dt (1,2) lc rgb "black"
 set xrange[0.2:0.7]
 set title "1,6-hexanediol" font ",15" offset 0,-0.5
-plot "06diol/01_solu/300.00/histo.dat" u 1:($2/2000) w l lw 3 lc rgb "red" notitle,\
-     "06diol/02_soln/histo.dat" u 1:($2/2000) w l lw 3 lc rgb "blue" notitle
+plot "06diol/01_solu/300.00/hist.dat" u 1:($2/2000) w l lw 3 lc rgb "red" notitle,\
+     "06diol/02_soln/hist.dat" u 1:($2/2000) w l lw 3 lc rgb "blue" notitle
 
 unset arrow
 unset xlabel
@@ -135,13 +135,13 @@ set yrange[0:4]
 set xlabel "end-to-end distance (nm)" offset 0,-0.5 font ",15"
 set arrow from 1.6,0 to 1.6,4 nohead lw 3 dt (1,2) lc rgb "black"
 set title "1,14-tetradecanediol" font ",15" offset 0,-0.5
-plot "14diol/01_solu/300.00/hist.dat" u 1:(($2*100)/965954) w l lw 3 lc rgb "red" notitle,\
+plot "14diol/01_solu/300.00/hist.dat" u 1:($2/10000) w l lw 3 lc rgb "red" notitle,\
      "14diol/02_soln/hist.dat" u 1:($2/10000) w l lw 3 lc rgb "blue" notitle
 
 unset arrow
 unset xlabel 
 set arrow from 1.73,0 to 1.73,4 nohead lw 3 dt (1,2) lc rgb "black"
 set title "1,15-pentadecanediol" font ",15" offset 0,-0.5
-plot "15diol/01_solu/300.00/hist.dat" u 1:(($2*100)/940201) w l lw 3 lc rgb "red" notitle,\
+plot "15diol/01_solu/300.00/hist.dat" u 1:($2/10000) w l lw 3 lc rgb "red" notitle,\
      "15diol/02_soln/hist.dat" u 1:($2/10000) w l lw 3 lc rgb "blue" notitle
 

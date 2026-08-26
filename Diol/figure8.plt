@@ -2,7 +2,7 @@ reset
 
 
 set terminal tikz createstyle color size 100mm,90mm
-set output "tikz_plt.tex"
+set output "figure8_plt.tex"
 
 set tics out
 set border lw 2
@@ -24,9 +24,8 @@ array tit[5] = ["$-T\\Delta_{\\text{A}\\rightarrow\\text{B}}S^\\text{conf}$",\
 "$\\Delta_{\\text{A}\\rightarrow\\text{B}}\\ev{\\nu^\\text{solv}(\\psi)}$"]
 p \
 f(x) w l lw 1.8 dt (3.5,3.5) notitle,\
-"output.dat" u 1:($8) w linespoint lw 3 pt 4 ps 2 lc rgb "forest-green" title tit[1] at 0.15,0.94,\
-"output.dat" u 1:($7) w linespoint lw 3 pt 6 ps 2 lc rgb "red" title tit[3] at 0.15,0.85,\
-"output.dat" u 1:6 w linespoint lw 3 pt 10 ps 3 lc rgb "magenta" title tit[4] at 0.9,0.94,\
-"output.dat" u 1:($3) w linespoint lw 3 pt 8 ps 3 lc rgb "blue" title "E" at 0.9,0.85,\
-"output.dat" u 1:($5) w linespoint lw 3 pt 8 ps 3 lc rgb "cyan" title "nu" at 0.6,0.85
+"diol.dat" u 1:($8) w linespoint lw 3 pt 4 ps 2 lc rgb "forest-green" title tit[1] at 0.15,0.94,\
+"diol.dat" u 1:($7) w linespoint lw 3 pt 6 ps 2 lc rgb "red" title tit[3] at 0.15,0.85,\
+"diol.dat" u 1:6 w linespoint lw 3 pt 10 ps 3 lc rgb "magenta" title tit[4] at 0.9,0.94,\
+"diol.dat" u 1:($3+$5) w linespoint lw 3 pt 8 ps 3 lc rgb "blue" title tit[2] at 0.9,0.85
 

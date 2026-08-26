@@ -2,7 +2,7 @@ reset
 
 
 set terminal tikz createstyle color size 100mm,90mm
-set output "tikz_plt.tex"
+set output "figureS6_plt.tex"
 
 set tics out
 set border lw 2
@@ -25,7 +25,7 @@ array tit[6] = ["$-T\\Delta_{\\text{A}\\rightarrow\\text{B}}S^\\text{conf}$",\
 "$\\Delta_{\\text{A}\\rightarrow\\text{B}}\\ev{\\nu^\\text{solv}(\\psi)}$"]
 p \
 f(x) w l lw 1.8 dt (3.5,3.5) notitle,\
-"output.dat" u 1:6 w linespoint lw 3 pt 10 ps 3 lc rgb "magenta" title tit[5] at 0.3,0.94,\
-"output.dat" u 1:3 w linespoint lw 3 pt 8 ps 3 lc rgb "blue" title tit[2] at 0.85,0.85,\
-"output.dat" u 1:5 w linespoint lw 3 pt 4 ps 2 lc rgb "cyan" title tit[3] at 0.3,0.85,\
-"output.dat" u 1:2 w linespoint lw 3 pt 6 ps 2 lc rgb "red" title tit[4] at 0.85,0.94
+"diol.dat" u 1:6 w linespoint lw 3 pt 10 ps 3 lc rgb "magenta" title tit[5] at 0.3,0.94,\
+"diol.dat" u 1:3 w linespoint lw 3 pt 8 ps 3 lc rgb "blue" title tit[2] at 0.85,0.85,\
+"diol.dat" u 1:5 w linespoint lw 3 pt 4 ps 2 lc rgb "cyan" title tit[3] at 0.3,0.85,\
+"diol.dat" u 1:2 w linespoint lw 3 pt 6 ps 2 lc rgb "red" title tit[4] at 0.85,0.94

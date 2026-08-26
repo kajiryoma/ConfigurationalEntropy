@@ -1,0 +1,222 @@
+
+
+*******************************************************************************
+Thu Aug 27 04:53:25 2026
+
+
+FIT:    data read from "alkane.dat" using ($5):($6)
+        format = x:z
+        x range restricted to [-10.0000 : 40.0000]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2025279713e+01   0.00e+00  7.09e-01    1.000000e+00   1.000000e+00
+   4 1.3104651035e-03  -2.44e-01  7.09e-05    6.322730e-01   2.241875e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00131047
+rel. change during last iteration : -2.44429e-06
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0114476
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000131047
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.632273         +/- 0.1205       (19.06%)
+b               = 0.0224188        +/- 0.008339     (37.2%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.918  1.000 
+
+
+*******************************************************************************
+Thu Aug 27 04:53:25 2026
+
+
+FIT:    data read from "diol.dat" using ($5):($6)
+        format = x:z
+        x range restricted to [-10.0000 : 40.0000]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x) = c*x + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c             d            
+   0 1.3464251958e+01   0.00e+00  7.26e-01    1.000000e+00   1.000000e+00
+   4 5.8636430876e-02  -1.54e-08  7.26e-05    1.419503e+00  -4.008802e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0586364
+rel. change during last iteration : -1.53839e-13
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0765744
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00586364
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = 1.4195           +/- 0.09595      (6.76%)
+d               = -0.040088        +/- 0.02229      (55.6%)
+
+correlation matrix of the fit parameters:
+                c      d      
+c               1.000 
+d               0.128  1.000 
+
+
+*******************************************************************************
+Thu Aug 27 04:54:40 2026
+
+
+FIT:    data read from "alkane.dat" using ($8):($9)
+        format = x:z
+        x range restricted to [-10.0000 : 40.0000]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.6499231270e+03   0.00e+00  2.08e+00    1.000000e+00   1.000000e+00
+   4 2.9224095721e+01  -6.29e-08  2.08e-04   -6.265854e+00  -2.815742e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 29.2241
+rel. change during last iteration : -6.28871e-13
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.70951
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.92241
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -6.26585         +/- 0.3806       (6.074%)
+b               = -2.81574         +/- 1.05         (37.3%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.883  1.000 
+
+
+*******************************************************************************
+Thu Aug 27 04:54:40 2026
+
+
+FIT:    data read from "diol.dat" using ($8):($9)
+        format = x:z
+        x range restricted to [-10.0000 : 40.0000]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x) = c*x + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c             d            
+   0 5.5748997648e+03   0.00e+00  1.96e+00    1.000000e+00   1.000000e+00
+   4 2.1943985775e+01  -6.39e-08  1.96e-04   -5.698262e+00  -3.764262e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 21.944
+rel. change during last iteration : -6.38854e-13
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.48135
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.1944
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = -5.69826         +/- 0.3151       (5.53%)
+d               = -3.76426         +/- 0.8144       (21.64%)
+
+correlation matrix of the fit parameters:
+                c      d      
+c               1.000 
+d              -0.851  1.000 
+
+
+*******************************************************************************
+Thu Aug 27 04:56:06 2026
+
+
+FIT:    data read from "alkane.dat" using ($8):($9*(-1))
+        format = x:z
+        x range restricted to [-10.0000 : 40.0000]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.1621366434e+03   0.00e+00  2.08e+00    1.000000e+00   1.000000e+00
+   3 2.9224095721e+01  -1.03e-02  2.08e-03    6.265854e+00   2.815742e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 29.2241
+rel. change during last iteration : -1.03112e-07
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.70951
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.92241
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 6.26585          +/- 0.3806       (6.074%)
+b               = 2.81574          +/- 1.05         (37.3%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.883  1.000 
+
+
+*******************************************************************************
+Thu Aug 27 04:56:06 2026
+
+
+FIT:    data read from "diol.dat" using ($8):($9*(-1))
+        format = x:z
+        x range restricted to [-10.0000 : 40.0000]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x) = c*x + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c             d            
+   0 2.5683771786e+03   0.00e+00  1.96e+00    1.000000e+00   1.000000e+00
+   3 2.1943985775e+01  -8.43e-01  1.96e-03    5.698263e+00   3.764261e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 21.944
+rel. change during last iteration : -8.42517e-06
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.48135
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.1944
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = 5.69826          +/- 0.3151       (5.53%)
+d               = 3.76426          +/- 0.8144       (21.64%)
+
+correlation matrix of the fit parameters:
+                c      d      
+c               1.000 
+d              -0.851  1.000 

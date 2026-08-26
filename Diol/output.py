@@ -4,7 +4,7 @@ from pathlib import Path
 import re
 
 home = Path.cwd()
-oup = home / "output.dat"
+oup = home / "diol.dat"
 
 T = 300.0
 C = 4184.0  # J -> kcal

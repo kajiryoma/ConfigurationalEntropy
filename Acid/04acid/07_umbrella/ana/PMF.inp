@@ -1,0 +1,16 @@
+[INPUT]
+cvfile       = ./angaver{}.xvg        # input cv file
+weightfile   = ./weight{}.dat
+
+[OUTPUT]
+pmffile      = dist.pmf
+
+[OPTION]
+nreplica     = 44        # number of replicas
+dimension    = 1          # dimension of cv space
+temperature  = 300
+grids1       = -180 180 180    # (min max num_of_bins)
+band_width1  = 0.25       # sigma of gaussian kernel
+                          # should be comparable or smaller than the grid size
+                          # (pmf_analysis creates histogram by accumulating gaussians)
+is_periodic1 = YES         # periodicity of cv1

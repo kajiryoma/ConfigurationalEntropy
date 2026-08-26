@@ -17,7 +17,7 @@ set linestyle 10 lc rgb "midnight-blue" lw 5 dt 3
 set linestyle 10 lw 1 pt 4 ps 0.9 lc rgb "midnight-blue"
 
 set terminal tikz createstyle color size 180mm,55mm
-set output "tikz_plt.tex"
+set output "figure6_plt.tex"
 
 set border lw 2
 set key nobox
@@ -65,6 +65,6 @@ set mytics 2
 set arrow from 1.72,0.0 to 1.72,4 nohead lw 3 dt (1,2) lc rgb "black"
 set title "1,15-pentadecanediol" font ",14" offset 0,-0.5
 set xrange[0.2:2.5]
-plot "15diol/01_solu/300.00/hist.dat" u 1:(($2*100)/942104) w l lw 3 lc rgb "red" notitle,\
+plot "15diol/01_solu/300.00/hist.dat" u 1:($2/10000) w l lw 3 lc rgb "red" notitle,\
      "15diol/02_soln/hist.dat" u 1:($2/10000) w l lw 3 lc rgb "blue" notitle
 

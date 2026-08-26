@@ -1,0 +1,15 @@
+tolerance 2.0
+
+filetype gmx
+
+output soln.pdb
+structure solu.pdb
+  number 1
+  inside box 0.0 0.0 0.0 40 40 40
+end structure
+
+structure water.pdb
+  number 4800
+  inside box 0.0 0.0 0.0 50.4 50.4 50.4
+end structure
+

@@ -1,0 +1,63 @@
+integrator               = sd
+tinit                    = 0
+dt                       = 0.002
+nsteps                   = 50000000 ; 100 ns
+
+comm-mode                = Linear
+emtol                    = 100
+emstep                   = 0.01
+niter                    = 20
+fcstep                   = 0
+nstcgsteep               = 1000
+nbfgscorr                = 10
+
+nstxout                  = 0
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 1000
+nstenergy                = 1000
+nstxout-compressed       = 500 ; 1 ps
+compressed-x-precision   = 1000
+
+nstlist                  = 100
+pbc                      = xyz
+rlist                    = 1.2
+;verlet-buffer-tolerance  = -1 
+coulombtype              = pme
+rcoulomb-switch          = 0
+rcoulomb                 = 1.2
+vdwtype                  = Cut-off 
+vdw_modifier             = Potential-switch
+rvdw-switch              = 1.0
+rvdw                     = 1.2
+DispCorr                 = no
+fourierspacing           = 0.10
+fourier_nx               = 48
+fourier_ny               = 48
+fourier_nz               = 48
+pme_order                = 6 
+ewald_rtol               = 1e-06
+ewald_geometry           = 3d
+epsilon_surface          = 0
+
+Tcoupl                   = no
+tc-grps                  = System
+tau_t                    = 2.0
+ref_t                    = 300 
+Pcoupl                   = no
+Pcoupltype               = isotropic
+tau_p                    = 10
+compressibility          = 4.5e-5
+ref_p                    = 1.01325
+
+gen_vel                  = yes
+ld_seed                  = -1
+constraints              = all-bonds
+constraint-algorithm     = Lincs
+continuation             = no
+Shake-SOR                = no
+shake-tol                = 1e-04
+lincs-order              = 4
+lincs-warnangle          = 30
+morse                    = no
+

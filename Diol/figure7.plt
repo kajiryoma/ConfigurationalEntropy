@@ -17,7 +17,7 @@ set linestyle 10 lc rgb "midnight-blue" lw 5 dt 3
 set linestyle 10 lw 1 pt 4 ps 0.9 lc rgb "midnight-blue"
 
 set terminal tikz createstyle color size 100mm,80mm
-set output "tikz_plt.tex"
+set output "figure7_plt.tex"
 
 set border lw 2
 set key nobox

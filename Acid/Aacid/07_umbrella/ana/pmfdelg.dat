@@ -1,0 +1,8 @@
+# ========================================================
+#   date:  Tue Mar 31 08:32:07 2026
+#   executable:  /Users/kaji/miniconda3/bin/python3
+#   working dir:  /Users/kaji/M2/01_solbar/08_acid/Aacid/07_umbrella/ana
+#   command line:  /Users/kaji/command/mypython/pmfdelg -f angaver{}.xvg -w weight{}.dat -n 44 -abs True
+# ========================================================
+# deltaG bsMean: -2.3773919018547454
+# deltaG bsError: 0.0020519053021424297

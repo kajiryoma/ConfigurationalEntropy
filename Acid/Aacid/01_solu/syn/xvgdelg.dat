@@ -1,0 +1,14 @@
+# ========================================================
+#   date:  Mon Mar 23 17:24:39 2026
+#   executable:  /Users/kaji/miniconda3/bin/python3
+#   working dir:  /Users/kaji/M2/01_solbar/08_acid/Aacid/01_solu/syn
+#   command line:  /Users/kaji/command/mypython/xvgdelg -f angaver.xvg -l 40 -abs true
+# ========================================================
+# deltaG bsMean: -5.2257029366591725
+# deltaG bsError: 0.23166748770835097
+# intE_l bsMean: 53554.064
+# intE_l bsError: 3.0526285529301345
+# intE_u bsMean: 8.936
+# intE_u bsError: 3.052628552930135
+# delE bsMean: 53545.128
+# delE bsError: 6.105257105860269
