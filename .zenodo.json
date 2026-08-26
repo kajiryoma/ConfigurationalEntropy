@@ -41,11 +41,6 @@
       "scheme": "url",
       "identifier": "https://github.com/kajiryoma/ConfigurationalEntropy",
       "relation": "isSupplementTo"
-    },
-    {
-      "scheme": "doi",
-      "identifier": "",
-      "relation": "isSupplementTo"
     }
   ],
   "license": {
