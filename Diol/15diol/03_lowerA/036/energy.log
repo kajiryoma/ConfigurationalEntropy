@@ -1,0 +1,276 @@
+lambda_00/bar.xvg: 0.0 - 953.2; lambda = (0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9533 pts)
+        dH/dl (vdw-lambda) (9533 pts)
+        delta H to (0, 0) (9533 pts)
+        delta H to (0, 0.1) (9533 pts)
+
+
+lambda_01/bar.xvg: 0.0 - 957.7; lambda = (0, 0.1)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9578 pts)
+        dH/dl (vdw-lambda) (9578 pts)
+        delta H to (0, 0) (9578 pts)
+        delta H to (0, 0.1) (9578 pts)
+        delta H to (0, 0.2) (9578 pts)
+
+
+lambda_02/bar.xvg: 0.0 - 957.7; lambda = (0, 0.2)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9578 pts)
+        dH/dl (vdw-lambda) (9578 pts)
+        delta H to (0, 0.1) (9578 pts)
+        delta H to (0, 0.2) (9578 pts)
+        delta H to (0, 0.3) (9578 pts)
+
+
+lambda_03/bar.xvg: 0.0 - 960.4; lambda = (0, 0.3)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9605 pts)
+        dH/dl (vdw-lambda) (9605 pts)
+        delta H to (0, 0.2) (9605 pts)
+        delta H to (0, 0.3) (9605 pts)
+        delta H to (0, 0.4) (9605 pts)
+
+
+lambda_04/bar.xvg: 0.0 - 959.3; lambda = (0, 0.4)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9594 pts)
+        dH/dl (vdw-lambda) (9594 pts)
+        delta H to (0, 0.3) (9594 pts)
+        delta H to (0, 0.4) (9594 pts)
+        delta H to (0, 0.5) (9594 pts)
+
+
+lambda_05/bar.xvg: 0.0 - 959.6; lambda = (0, 0.5)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9597 pts)
+        dH/dl (vdw-lambda) (9597 pts)
+        delta H to (0, 0.4) (9597 pts)
+        delta H to (0, 0.5) (9597 pts)
+        delta H to (0, 0.55) (9597 pts)
+
+
+lambda_06/bar.xvg: 0.0 - 958.8; lambda = (0, 0.55)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9589 pts)
+        dH/dl (vdw-lambda) (9589 pts)
+        delta H to (0, 0.5) (9589 pts)
+        delta H to (0, 0.55) (9589 pts)
+        delta H to (0, 0.6) (9589 pts)
+
+
+lambda_07/bar.xvg: 0.0 - 957.5; lambda = (0, 0.6)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9576 pts)
+        dH/dl (vdw-lambda) (9576 pts)
+        delta H to (0, 0.55) (9576 pts)
+        delta H to (0, 0.6) (9576 pts)
+        delta H to (0, 0.65) (9576 pts)
+
+
+lambda_08/bar.xvg: 0.0 - 955.1; lambda = (0, 0.65)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9552 pts)
+        dH/dl (vdw-lambda) (9552 pts)
+        delta H to (0, 0.6) (9552 pts)
+        delta H to (0, 0.65) (9552 pts)
+        delta H to (0, 0.7) (9552 pts)
+
+
+lambda_09/bar.xvg: 0.0 - 953.3; lambda = (0, 0.7)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9534 pts)
+        dH/dl (vdw-lambda) (9534 pts)
+        delta H to (0, 0.65) (9534 pts)
+        delta H to (0, 0.7) (9534 pts)
+        delta H to (0, 0.75) (9534 pts)
+
+
+lambda_10/bar.xvg: 0.0 - 964.3; lambda = (0, 0.75)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9644 pts)
+        dH/dl (vdw-lambda) (9644 pts)
+        delta H to (0, 0.7) (9644 pts)
+        delta H to (0, 0.75) (9644 pts)
+        delta H to (0, 0.8) (9644 pts)
+
+
+lambda_11/bar.xvg: 0.0 - 962.5; lambda = (0, 0.8)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9626 pts)
+        dH/dl (vdw-lambda) (9626 pts)
+        delta H to (0, 0.75) (9626 pts)
+        delta H to (0, 0.8) (9626 pts)
+        delta H to (0, 0.85) (9626 pts)
+
+
+lambda_12/bar.xvg: 0.0 - 961.1; lambda = (0, 0.85)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9612 pts)
+        dH/dl (vdw-lambda) (9612 pts)
+        delta H to (0, 0.8) (9612 pts)
+        delta H to (0, 0.85) (9612 pts)
+        delta H to (0, 0.9) (9612 pts)
+
+
+lambda_13/bar.xvg: 0.0 - 959.7; lambda = (0, 0.9)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9598 pts)
+        dH/dl (vdw-lambda) (9598 pts)
+        delta H to (0, 0.85) (9598 pts)
+        delta H to (0, 0.9) (9598 pts)
+        delta H to (0, 0.95) (9598 pts)
+
+
+lambda_14/bar.xvg: 0.0 - 959.1; lambda = (0, 0.95)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9592 pts)
+        dH/dl (vdw-lambda) (9592 pts)
+        delta H to (0, 0.9) (9592 pts)
+        delta H to (0, 0.95) (9592 pts)
+        delta H to (0, 1) (9592 pts)
+
+
+lambda_15/bar.xvg: 0.0 - 958.6; lambda = (0, 1)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9587 pts)
+        dH/dl (vdw-lambda) (9587 pts)
+        delta H to (0, 0.95) (9587 pts)
+        delta H to (0, 1) (9587 pts)
+        delta H to (0.2, 1) (9587 pts)
+
+
+lambda_16/bar.xvg: 0.0 - 963.1; lambda = (0.2, 1)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9632 pts)
+        dH/dl (vdw-lambda) (9632 pts)
+        delta H to (0, 1) (9632 pts)
+        delta H to (0.2, 1) (9632 pts)
+        delta H to (0.4, 1) (9632 pts)
+
+
+lambda_17/bar.xvg: 0.0 - 953.6; lambda = (0.4, 1)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9537 pts)
+        dH/dl (vdw-lambda) (9537 pts)
+        delta H to (0.2, 1) (9537 pts)
+        delta H to (0.4, 1) (9537 pts)
+        delta H to (0.5, 1) (9537 pts)
+
+
+lambda_18/bar.xvg: 0.0 - 956.0; lambda = (0.5, 1)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9561 pts)
+        dH/dl (vdw-lambda) (9561 pts)
+        delta H to (0.4, 1) (9561 pts)
+        delta H to (0.5, 1) (9561 pts)
+        delta H to (0.6, 1) (9561 pts)
+
+
+lambda_19/bar.xvg: 0.0 - 958.0; lambda = (0.6, 1)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9581 pts)
+        dH/dl (vdw-lambda) (9581 pts)
+        delta H to (0.5, 1) (9581 pts)
+        delta H to (0.6, 1) (9581 pts)
+        delta H to (0.7, 1) (9581 pts)
+
+
+lambda_20/bar.xvg: 0.0 - 960.1; lambda = (0.7, 1)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9602 pts)
+        dH/dl (vdw-lambda) (9602 pts)
+        delta H to (0.6, 1) (9602 pts)
+        delta H to (0.7, 1) (9602 pts)
+        delta H to (0.8, 1) (9602 pts)
+
+
+lambda_21/bar.xvg: 0.0 - 962.4; lambda = (0.8, 1)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9625 pts)
+        dH/dl (vdw-lambda) (9625 pts)
+        delta H to (0.7, 1) (9625 pts)
+        delta H to (0.8, 1) (9625 pts)
+        delta H to (0.9, 1) (9625 pts)
+
+
+lambda_22/bar.xvg: 0.0 - 964.1; lambda = (0.9, 1)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9642 pts)
+        dH/dl (vdw-lambda) (9642 pts)
+        delta H to (0.8, 1) (9642 pts)
+        delta H to (0.9, 1) (9642 pts)
+        delta H to (1, 1) (9642 pts)
+
+
+lambda_23/bar.xvg: 0.0 - 964.8; lambda = (1, 1)
+    dH/dl & foreign lambdas:
+        dH/dl (coul-lambda) (9649 pts)
+        dH/dl (vdw-lambda) (9649 pts)
+        delta H to (0.9, 1) (9649 pts)
+        delta H to (1, 1) (9649 pts)
+
+
+
+   Samples in time interval: 0.000 - 964.800
+Removing samples outside of: 100.000 - 964.800
+
+Temperature: 300 K
+
+Detailed results in kT (see help for explanation):
+
+ lam_A  lam_B      DG   +/-     s_A   +/-     s_B   +/-   stdev   +/- 
+     0      1   -7.30  0.01    0.03  0.00    0.03  0.00    0.25  0.00
+     1      2   -5.77  0.01    0.02  0.00    0.02  0.00    0.24  0.00
+     2      3   -2.92  0.01    0.08  0.01    0.08  0.01    0.39  0.00
+     3      4    2.06  0.03    0.38  0.02    0.42  0.02    0.90  0.01
+     4      5    8.92  0.11    2.66  0.04    3.07  0.05    2.83  0.02
+     5      6    5.11  0.09    2.45  0.09    2.09  0.06    2.47  0.04
+     6      7    3.40  0.09    2.55  0.14    1.76  0.06    2.25  0.06
+     7      8    2.09  0.04    1.82  0.08    1.26  0.04    1.82  0.03
+     8      9    1.33  0.01    1.37  0.02    0.95  0.02    1.56  0.01
+     9     10    0.82  0.01    1.19  0.01    0.83  0.01    1.42  0.01
+    10     11    0.42  0.02    0.98  0.01    0.69  0.01    1.28  0.01
+    11     12    0.13  0.02    0.85  0.02    0.60  0.01    1.19  0.01
+    12     13   -0.11  0.01    0.76  0.02    0.54  0.01    1.10  0.01
+    13     14   -0.30  0.01    0.64  0.02    0.45  0.01    1.02  0.01
+    14     15   -0.43  0.02    0.59  0.01    0.43  0.01    0.98  0.01
+    15     16   -0.54  0.02    0.58  0.02    0.62  0.03    1.09  0.01
+    16     17   -1.84  0.03    0.67  0.01    0.76  0.01    1.24  0.01
+    17     18   -1.56  0.01    0.26  0.01    0.28  0.01    0.71  0.01
+    18     19   -2.11  0.02    0.27  0.01    0.28  0.01    0.76  0.01
+    19     20   -2.72  0.03    0.33  0.02    0.34  0.02    0.81  0.01
+    20     21   -3.42  0.02    0.37  0.03    0.38  0.04    0.85  0.01
+    21     22   -4.16  0.01    0.36  0.02    0.37  0.02    0.87  0.01
+    22     23   -4.90  0.02    0.37  0.02    0.38  0.02    0.89  0.01
+
+
+Final results in kJ/mol:
+
+point      0 -      1,   DG -18.21 +/-  0.03
+point      1 -      2,   DG -14.39 +/-  0.01
+point      2 -      3,   DG -7.29 +/-  0.02
+point      3 -      4,   DG  5.14 +/-  0.08
+point      4 -      5,   DG 22.24 +/-  0.27
+point      5 -      6,   DG 12.74 +/-  0.24
+point      6 -      7,   DG  8.49 +/-  0.21
+point      7 -      8,   DG  5.22 +/-  0.11
+point      8 -      9,   DG  3.31 +/-  0.04
+point      9 -     10,   DG  2.03 +/-  0.03
+point     10 -     11,   DG  1.04 +/-  0.06
+point     11 -     12,   DG  0.32 +/-  0.05
+point     12 -     13,   DG -0.28 +/-  0.03
+point     13 -     14,   DG -0.76 +/-  0.03
+point     14 -     15,   DG -1.07 +/-  0.04
+point     15 -     16,   DG -1.35 +/-  0.04
+point     16 -     17,   DG -4.59 +/-  0.07
+point     17 -     18,   DG -3.89 +/-  0.03
+point     18 -     19,   DG -5.25 +/-  0.05
+point     19 -     20,   DG -6.77 +/-  0.08
+point     20 -     21,   DG -8.54 +/-  0.04
+point     21 -     22,   DG -10.37 +/-  0.03
+point     22 -     23,   DG -12.22 +/-  0.05
+
+total      0 -     23,   DG -34.43 +/-  0.84
+

@@ -1,0 +1,14 @@
+# ========================================================
+#   date:  Mon Jan 19 22:34:24 2026
+#   executable:  /Users/kaji/miniconda3/bin/python3
+#   working dir:  /Users/kaji/M2/01_solbar/06_diol/10diol/09_bend/solu
+#   command line:  /Users/kaji/command/mypython/xvgdelg -f Awhole.dat -ej 0 -l 0.35
+# ========================================================
+# deltaG bsMean: 2.505567963718627
+# deltaG bsError: 0.006122221718747937
+# intE_l bsMean: 24.675694536329836
+# intE_l bsError: 0.03978843389075923
+# intE_u bsMean: 25.93751496242895
+# intE_u bsError: 0.004624495874771733
+# delE bsMean: -1.2618204260991115
+# delE bsError: 0.040028678545500344

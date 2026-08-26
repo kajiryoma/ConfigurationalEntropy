@@ -1,0 +1,14 @@
+# ========================================================
+#   date:  Mon Jan 19 23:27:53 2026
+#   executable:  /Users/kaji/miniconda3/bin/python3
+#   working dir:  /Users/kaji/M2/01_solbar/06_diol/05diol/09_bend
+#   command line:  /Users/kaji/command/mypython/xvgdelg -f dist.xvg -r 0 -l 0.35
+# ========================================================
+# deltaG bsMean: 3.7253331065408433
+# deltaG bsError: 0.013990239517134288
+# intE_l bsMean: 1929.458
+# intE_l bsError: 45.165873713419884
+# intE_u bsMean: 998080.542
+# intE_u bsError: 45.16587371341988
+# delE bsMean: -996151.084
+# delE bsError: 90.33174742683975
