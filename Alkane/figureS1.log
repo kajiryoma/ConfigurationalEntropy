@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.euc) (TeX Live 2024) (preloaded format=platex 2024.11.15)  27 AUG 2026 01:15
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.euc) (TeX Live 2024) (preloaded format=platex 2024.11.15)  27 AUG 2026 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,8 +523,7 @@ File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \gphcharsize=\dimen276
 \gpbasems=\dimen277
 \gpbaselw=\dimen278
-))
-No file figureS1.aux.
+)) (./figureS1.aux)
 \openout1 = `figureS1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -545,6 +544,7 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
+
 (./figureS1_plt.tex
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
@@ -694,12 +694,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15168 strings out of 474774
- 310083 string characters out of 5758800
+ 15171 strings out of 474774
+ 310134 string characters out of 5758800
  2162032 words of memory out of 5000000
- 37250 multiletter control sequences out of 15000+600000
+ 37251 multiletter control sequences out of 15000+600000
  577701 words of font info for 112 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  102i,7n,107p,418b,818s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on figureS1.dvi (1 page, 417364 bytes).
+Output written on figureS1.dvi (1 page, 417360 bytes).
